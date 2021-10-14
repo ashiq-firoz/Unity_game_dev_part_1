@@ -1,2 +1,3 @@
-# Unity game development part 1 and part 2 | malayalam
-This contains the move.cs script , that can be used to move objects using arrow keys in unity 3d.
+# Unity game development tutorial | malayalam
+This contains the scripts , that are mentioned in the tutorial series.
+Each script for each part is mentioned above.
