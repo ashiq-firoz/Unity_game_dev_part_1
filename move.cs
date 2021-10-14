@@ -13,16 +13,17 @@ public class move : MonoBehaviour
         cam.position = this.transform.position; //sets the position of cam to be equal to the position of the object(ball) to which the script is linked
         
         if(Input.GetKey(KeyCode.UpArrow)){ // checks if uparrow is pressed
-            this.transform.Translate(Vector3.forward*10*Time.deltaTime);      // Change 10 to speed for the below code
+            this.transform.Translate(Vector3.forward*speed*Time.deltaTime);      // Change 10 to speed for the below code
         }
         if(Input.GetKey(KeyCode.DownArrow)){ // checks if downarrow is pressed
-            this.transform.Translate(Vector3.back*10*Time.deltaTime);
+            this.transform.Translate(Vector3.back*speed*Time.deltaTime);
         }
         if(Input.GetKey(KeyCode.LeftArrow)){ // checks if leftarrow is pressed
-            this.transform.Translate(Vector3.left*10*Time.deltaTime);
+            this.transform.Translate(Vector3.left*speed*Time.deltaTime);
+            
         }
         if(Input.GetKey(KeyCode.RightArrow)){ // checks if rightarrow is pressed
-            this.transform.Translate(Vector3.right*10*Time.deltaTime);            
+            this.transform.Translate(Vector3.right*speed*Time.deltaTime);            
         }
     }
 }
