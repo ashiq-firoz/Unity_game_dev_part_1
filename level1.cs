@@ -28,6 +28,6 @@ public class level1 : MonoBehaviour
     }
 
     public void next(){
-        SceneManager.LoadScene("Home");
+        EditorSceneManager.LoadScene("Home"); //IN new version of unity EditorSceneManager is used
     }
 }
